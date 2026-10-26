@@ -114,9 +114,9 @@ $$10000 \cdot (p_5 \bmod 10) \in [0, 90000]$$
 
 $$1000 \cdot (p_1 \bmod 10) \in [3000, 9000]$$
 
-$$100 \cdot ((p_3 /\!/ 10) \bmod 10 + 5) \in [500, 1400]$$
+$$100 \cdot \left(\left\lfloor p_3 / 10 \right\rfloor \bmod 10 + 5\right) \in [500, 1400]$$
 
-$$10 \cdot ((p_9 /\!/ 10) \bmod 10) \in [0, 90]$$
+$$10 \cdot \left(\left\lfloor p_9 / 10 \right\rfloor \bmod 10\right) \in [0, 90]$$
 
 $$(p_7 \bmod 10) + 2 \in [2, 11]$$
 Суммируя границы для первого выражения, получаем:
